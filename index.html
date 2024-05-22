@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            background-color: #343a40;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 0 10px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #495057;
+        }
+        h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .headline {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .headline:hover {
+            transform: scale(1.05);
+        }
+        .headline img {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .headline-content {
+            padding: 20px;
+        }
+        .headline h2 {
+            margin-top: 0;
+            color: #333;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .headline p {
+            color: #666;
+            font-size: 1em;
+            line-height: 1.4;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Latest News</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">World</a>
+        <a href="#">Politics</a>
+        <a href="#">Business</a>
+        <a href="#">Technology</a>
+    </nav>
+    <div class="container">
+        <div class="headline">
+            <img src="images/bn.jpg" alt="Headline Image">
+            <div class="headline-content">
+                <h2>Breaking News: Lorem Ipsum Dolor Sit Amet</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam convallis dolor vitae sodales.</p>
+            </div>
+        </div>
+        <div class="headline">
+            <img src="images/fs.jpg" alt="Headline Image">
+            <div class="headline-content">
+                <h2>Feature Story: Consectetur Adipiscing Elit</h2>
+                <p>Nullam euismod metus vel justo scelerisque, id rutrum nisi facilisis. Nunc id massa id ligula finibus lacinia.</p>
+            </div>
+        </div>
+        <div class="headline">
+            <img src="images/tech.jpg" alt="Headline Image">
+            <div class="headline-content">
+                <h2>Technology: Fusce Ultricies Diam Eget Ligula</h2>
+                <p>Fusce ultricies diam eget ligula congue, sit amet volutpat mauris sagittis. Aenean suscipit nulla id sapien iaculis, nec eleifend enim lacinia.</p>
+            </div>
+        </div>
+        <div class="headline">
+            <img src="images/srh.webp" alt="Headline Image">
+            <div class="headline-content">
+                <h2>Sports: Phasellus at Diam Finibus</h2>
+                <p>Phasellus at diam finibus, accumsan odio sit amet, eleifend metus. Sed malesuada urna quis mi placerat, eget volutpat lacus feugiat.</p>
+            </div>
+        </div>
+        <div class="headline">
+            <img src="images/ent.webp" alt="Headline Image">
+            <div class="headline-content">
+                <h2>Entertainment: Duis Pretium Sapien Eu Dapibus</h2>
+                <p>Duis pretium sapien eu dapibus consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            </div>
+        </div>
+        <div class="headline">
+            <img src="images/sci.webp" alt="Headline Image">
+            <div class="headline-content">
+                <h2>Science: Proin Euismod Eros At Ligula Fringilla</h2>
+                <p>Proin euismod eros at ligula fringilla, quis efficitur purus ultrices. Nulla facilisi. Donec elementum nunc non elit vehicula, in efficitur metus gravida.</p>
+            </div>
+        </div>
+        <div class="headline">
+            <img src="images/hlth.jpg" alt="Headline Image">
+            <div class="headline-content">
+                <h2>Health: Vivamus Tempor Magna Eget Augue Convallis</h2>
+                <p>Vivamus tempor magna eget augue convallis, eget suscipit lorem auctor. Integer eu sapien vitae urna elementum rutrum.</p>
+            </div>
+        </div>
+        <div class="headline">
+            <img src="images/edu.jpg" alt="Headline Image">
+            <div class="headline-content">
+                <h2>Education: Nunc Rhoncus Ligula Ac Neque Dignissim</h2>
+                <p>Nunc rhoncus ligula ac neque dignissim, a efficitur lorem congue. Fusce euismod urna ut lectus dictum, ac varius nisl tempus.</p>
+            </div>
+        </div>
+        <div class="headline">
+            <img src="images/env.jpeg" alt="Headline Image">
+            <div class="headline-content">
+                <h2>Environment: Sed Mollis Risus Eu Orci Consequat</h2>
+            </div>
+        </div>
+    </body>
+</html>
